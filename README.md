@@ -7,7 +7,7 @@ Each product should have a name, description, price, and quantity. Use Hibernate
 ## Run Instructions
 1. Import the project as a Maven project in an IDE.
 2. In order to run the project some requirements are requested:
-   - MySQL must be installed and running.
+   - MySQL must be installed and running, create a db called lowleveltask.
    - Maven should be isntalled in the OS.
 3. Run the program from the route: `/LowLevelTask/src/main/java/com/Task/LowLevelTask/LowLevelTaskApplication.java` as a java application.
 
