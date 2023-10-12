@@ -5,19 +5,19 @@ Create a Spring Boot application to manage a simple inventory system for a store
 Each product should have a name, description, price, and quantity. Use Hibernate to persist the product information in a MySQL database.
 
 ## Run Instructions
-1. Import the project as a Maven project in an IDE
+1. Import the project as a Maven project in an IDE.
 2. In order to run the project some requirements are requested:
    - MySQL must be installed and running.
    - Maven should be isntalled in the OS.
-3. Run the program from the route: ´/LowLevelTask/src/main/java/com/Task/LowLevelTask/LowLevelTaskApplication.java´ as a java application.
+3. Run the program from the route: `/LowLevelTask/src/main/java/com/Task/LowLevelTask/LowLevelTaskApplication.java` as a java application.
 
 ## Additional instructions
-- In order to run the tests go to ´/LowLevelTask/src/test/java/com/Task/LowLevelTask/LowLevelApplicationTests.java´ and run it as JUnit test.
+- In order to run the tests go to `/LowLevelTask/src/test/java/com/Task/LowLevelTask/LowLevelApplicationTests.java` and run it as JUnit test.
 - JaCoCo is used for code coverage.
-  - In order to use it open a Terminal in the project route and excecute ´mvn clean test´ and then ´mvn jacoco:report´.
-  - To check results go to ´LowLevelTask\target\site´ and open index.html.
+  - In order to use it open a Terminal in the project route and excecute `mvn clean test` and then `mvn jacoco:report`.
+  - To check results go to `LowLevelTask\target\site` and open index.html.
 - SonarQube is used for complexity and style, in order to monitor tests please replace the ´token´
-  from the file ´/LowLevelTask/src/main/resources/application.properties´.
+  from the file `/LowLevelTask/src/main/resources/application.properties`.
 
 ## Feedback
 - Was it easy to complete the task using AI?
